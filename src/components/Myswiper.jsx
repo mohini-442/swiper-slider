@@ -15,24 +15,42 @@ import img6 from '../assets/images/img7.png'
 const Myswiper = () => {
     return (
         <div className='pt-5 my-container'>
-            <Swiper effect={'flip'} grabCursor={true} pagination={true} navigation={true} modules={[EffectFlip, Pagination, Navigation]}>
+            <Swiper effect={'flip'} grabCursor={true} navigation={true} modules={[EffectFlip, Pagination, Navigation]} className='py-5'>
                 <SwiperSlide>
-                    <img className='w-100' src={img1} />
+                    <img className='w-100 imgg' src={img1} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-100' src={img2} />
+                    <img className='w-100  imgg' src={img2} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-100' src={img3} />
+                    <img className='w-100 imgg' src={img3} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-100' src={img4} />
+                    <img className='w-100 imgg' src={img4} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-100' src={img5} />
+                    <img className='w-100 imgg' src={img5} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-100' src={img6} />
+                    <img className='w-100 imgg' src={img6} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img className='w-100 imgg' src={img1} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img className='w-100  imgg' src={img2} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img className='w-100 imgg' src={img3} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img className='w-100 imgg' src={img4} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img className='w-100 imgg' src={img5} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img className='w-100 imgg' src={img6} />
                 </SwiperSlide>
             </Swiper>
         </div>

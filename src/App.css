@@ -1,4 +1,4 @@
-.my-container{
+.my-container {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
@@ -33,6 +33,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.imgg {
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px !important;
+  border-radius: 40px;
 }
 
 .swiper-slide img {

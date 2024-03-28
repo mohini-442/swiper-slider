@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Myswiper />
-      <Myslider2/>
+      <Myslider2 />
     </>
   );
 }
