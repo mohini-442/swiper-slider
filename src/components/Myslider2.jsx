@@ -36,7 +36,7 @@ export default function Myslider2() {
                         },
                     }}
                     modules={[Pagination]}
-                    className="mySwiper"
+                    className="mySwiper py-5"
                 >
                     <SwiperSlide>
                         <img src={img1} alt="img1" />
